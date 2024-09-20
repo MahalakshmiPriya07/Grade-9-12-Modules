@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Hobbies Slider</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h2>Your Hobbies</h2>
+        <p>Slide through your hobbies using the simple carousel below.</p>
+
+        <!-- Simple Bootstrap Carousel -->
+        <div id="simpleSlider" class="carousel slide" data-ride="carousel">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="p-3 bg-light border">
+                        <h3>Hobby 1: Reading</h3>
+                        <p>Reading is a great way to expand your knowledge and imagination.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="p-3 bg-dark text-white">
+                        <h3>Hobby 2: Painting</h3>
+                        <p>Painting allows you to express creativity and bring colors to life.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="p-3 bg-primary text-white">
+                        <h3>Hobby 3: Hiking</h3>
+                        <p>Hiking helps you explore nature and stay physically active.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel controls (next/previous) -->
+            <a class="carousel-control-prev" href="#simpleSlider" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#simpleSlider" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
